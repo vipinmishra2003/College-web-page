@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head> 
+<style>
+    .div1{
+        padding: 14px 16;
+        border-color: black;
+        background-color: antiquewhite;
+        color: red;
+        position: inherit;
+        align-content: center;
+    }
+    .img{
+        background: gray;
+        width: 400px;
+    }
+
+</style>
+<body>
+    <div class="div1">
+        
+            <img src="siet logo.png" class="img"><br><br>
+             Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"   name="text"> 
+             <br><br>
+             Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="text email" alt="please enter valid email">
+             <br><br>
+             Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="text password">
+             <br><br>
+             Confirm password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="confirm password" name="text password">
+             <br><br>
+             Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+             <br><br>
+             Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" value="m" name="male">male<input type="radio" name="male" value="f">female
+             <br><br>
+             State:<select name="state" id="jsp" aria-placeholder="select"> 
+                    <option value="null">--Select--</option>
+                    <option value="up" aria-placeholder="select">uttar pradesh</option>
+                    <option value="mp">madhya pradesh</option>
+                    <option value="b">bihar</option>
+                    <option value="mh">maharastra</option>
+                    <option value="g">Goa</option>
+                    <option value="t">Telangana</option>
+                    <option value="g">Gujrat</option>
+
+                </select><br><br>
+                City <select name="city" id="">
+                    <option value="null">--Select--</option> 
+                    <option value="prg">prayagraj</option>
+                        <option value="pbh">pratapgarh</option>
+                        <option value="am">amethi</option>
+                        <option value="sul">sultanpur</option>
+                    </select><br><br>
+                 Profile pic<input type="file" alt="image not found"><br><br>
+                <input type="checkbox"> I accept terms and conditions
+                <br><br>
+                <button type="submit" onclick="alert('Successfully Registered')">Submit</button> <button type="cancel" onclick="alert('Cleared !')">Reset</button>
+                    
+    </div>
+</body>
+</html>
